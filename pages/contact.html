@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты</title>
+    <style>
+        body{
+            background-color: #ffdffd;
+            color: #000000;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .container{
+            background-color: #a58199;
+            border-radius: 15px;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, 150px);
+            max-width: 1200px;
+            gap: 10px;
+            padding: 20px;
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        .buttons__card{
+            background-color: #d198bd;
+
+            max-width: 150px;
+            font-size: 32px;
+            display:flex;
+
+            justify-content: center;
+            flex-direction:column;
+
+            padding: 10px;
+            transition: 0.3s;
+
+            border-radius: 15px;
+        }
+
+        .buttons__card a{
+            font-size: 32px;
+            color: inherit;
+            text-decoration: none;
+            list-style: none;
+        }
+
+        .buttons__card:hover{
+            background-color: #f0badb;
+            transform: scale(1.2);
+        }
+
+        .text{     
+            background-color: #ffdffd; 
+            max-width: 800px;
+            font-size: 32px;
+            display:flex;
+
+            transition: 0.3s;
+        }
+
+        .text a{
+            color:rgb(97, 127, 194) ;
+            text-decoration: none;
+            list-style: none;
+        }
+
+        .text:hover{
+            transform: scale(1.02);
+        }
+    
+    </style>
+</head>
+<body>
+    <h1>Контакты</h1>
+    <div class="container">  
+        <div class="buttons__card">
+            <a href="#">Главная страница</a>
+        </div>
+        <div class="buttons__card">
+            <a href="us.html">О нас</a>
+        </div>
+        <div class="buttons__card">
+            <a href="#">Контакты</a>
+        </div>
+        <div class="buttons__card">
+            <a href="product.html">Продукт</a>
+        </div>
+    </div>
+    <br>
+    <div class="text">
+        <p>
+            Наш номер - +78005553535
+        </p>
+    </div>
+    <div class="text">
+        <p>
+            Наш телеграмм канал - <a href="https://t.me/Verni262">@MaximIceCream</a>
+        </p>
+    </div>
+    <div class="text">
+        <p>
+            Наш ВК - 
+            <a href="https://vk.com/rloboda6">НАЖМИ ЧТОБЫ ПЕРЕЙТИ</a>
+        </p>
+    </div>
+</body>
+</html>
