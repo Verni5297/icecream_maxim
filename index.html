@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная страница</title>
+    <style>
+        body{
+            background-color: #ffdffd;
+            color: #000000;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .container{
+            background-color: #a58199;
+            border-radius: 15px;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, 150px);
+            max-width: 1200px;
+            gap: 10px;
+            padding: 20px;
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        .buttons__card{
+            background-color: #d198bd;
+
+            max-width: 150px;
+            font-size: 32px;
+            display:flex;
+
+            justify-content: center;
+            flex-direction:column;
+
+            padding: 10px;
+            transition: 0.3s;
+
+            border-radius: 15px;
+        }
+
+        .buttons__card a{
+            font-size: 32px;
+            color: inherit;
+            text-decoration: none;
+            list-style: none;
+        }
+
+        .buttons__card:hover{
+            background-color: #f0badb;
+            transform: scale(1.2);
+        }
+
+        .text{       
+            max-width: 800px;
+            font-size: 32px;
+            display:flex;
+
+            transition: 0.3s;
+        }
+
+        .text:hover{
+            transform: scale(1.02);
+        }
+    
+    </style>
+</head>
+<body>
+    <h1>Главная страница</h1>
+    <div class="container">  
+        <div class="buttons__card">
+            <a href="#">Главная страница</a>
+        </div>
+        <div class="buttons__card">
+            <a href="pages/us.html">О нас</a>
+        </div>
+        <div class="buttons__card">
+            <a href="pages/contact.html">Контакты</a>
+        </div>
+        <div class="buttons__card">
+            <a href="pages/product.html">Продукт</a>
+        </div>
+    </div>
+    <br>
+    <div class="text">
+        <p>
+            Самое лучшее, и вкусное мороженое, только у нас!
+            Большой ассотримент, много магазинов, ларьков и точек продаж по всей стране!
+        </p>
+    </div>
+    <br>
+    <div class="text">
+        <p>
+            Самые разные вкусы, и самые разные типы прохладных молочных сладостей
+        </p>
+    </div>
+</body>
+</html>
